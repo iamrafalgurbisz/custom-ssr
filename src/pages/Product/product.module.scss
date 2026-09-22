@@ -1,0 +1,27 @@
+.product {
+  display: flex;
+  height: 19rem;
+  position: relative;
+  gap: 2rem;
+}
+
+.img {
+  border: 2px solid black;
+}
+
+.descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+}
+
+.description {
+  color: gray;
+}
+
+.priceSection {
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 36px;
+}

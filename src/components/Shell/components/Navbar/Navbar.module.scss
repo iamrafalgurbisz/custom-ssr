@@ -1,0 +1,35 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 4rem;
+  text-decoration: none;
+  color: black;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category {
+  color: black;
+}
